@@ -5,7 +5,7 @@ export const NavbarWrapper = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
-  padding: 25px 0;
+  padding: 20px 0;
 `;
 
 export const NavbarContent = styled.div`
@@ -22,7 +22,6 @@ export const NavbarBlock = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 `;
 export const NavList = styled.ul`
   display: flex;
