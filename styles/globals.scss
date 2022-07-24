@@ -1,0 +1,109 @@
+:root {
+  --black: #000;
+  --manguBlack: #282b38;
+  --white: #ffffff;
+  --lightBrown: #b16519;
+  --california: #e58d35;
+  --hillLands: #89c249;
+  --moodIndigo: #363a4d;
+  --darkGray: #3a444e;
+  --gray: #85899c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../app/assets/fonts/ProximaNova-Bold.eot") format("eot"),
+    url("../app/assets/fonts/ProximaNova-Bold.ttf") format("truetype"),
+    url("../app/assets/fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../app/assets/fonts/ProximaNova-Light.eot") format("eot"),
+    url("../app/assets/fonts/ProximaNova-Light.ttf") format("truetype"),
+    url("../app/assets/fonts/ProximaNova-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../app/assets/fonts/ProximaNova-Regular.eot") format("eot"),
+    url("../app/assets/fonts/ProximaNova-Regular.ttf") format("truetype"),
+    url("../app/assets/fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../app/assets/fonts/ProximaNova-SemiBold.eot") format("eot"),
+    url("../app/assets/fonts/ProximaNova-SemiBold.ttf") format("truetype"),
+    url("../app/assets/fonts/ProximaNova-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "ProximaNova", sans-serif;
+  background: var(--manguBlack);
+  color: var(--white);
+}
+.container {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+  &:hover {
+    cursor: pointer;
+  }
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  font-weight: bold;
+  color: var(--white);
+  list-style-type: none;
+}
+button {
+  background: var(--california);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 146%;
+}
+.error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    color: var(--hillLands);
+  }
+  a {
+    color: var(--gray);
+    font-size: 25px;
+    margin: 10px 0;
+  }
+}
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     color-scheme: dark;
+//   }
+//   body {
+//     color: white;
+//     background: black;
+//   }
+// }
