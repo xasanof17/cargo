@@ -10,6 +10,7 @@ export const NavbarWrapper = styled.nav`
 
 export const NavbarContent = styled.div`
   display: flex;
+  flex-wrap: wrap;
   img {
     cursor: pointer;
   }
