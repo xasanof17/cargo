@@ -5,7 +5,7 @@ export const NavbarWrapper = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 25px 0;
 `;
 
 export const NavbarContent = styled.div`
